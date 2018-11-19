@@ -1,0 +1,122 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8310384369,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.initializeDriver()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Search and verify results",
+        "description": "",
+        "id": "auto1-search-function;search-and-verify-results",
+        "after": [
+          {
+            "result": {
+              "duration": 856938340,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.cleanUpCode()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10251339501,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user can navigate to www.autohero.com/de/search/",
+            "match": {
+              "location": "StepDefinition.navigateToAuto1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 368653129,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user applies first registration filter FROM 2015",
+            "match": {
+              "location": "StepDefinition.applyRegistrationFilterFrom()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2820796595,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user applies filter",
+            "match": {
+              "location": "StepDefinition.applyFilter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 368964843,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user sorts cars by price decending",
+            "match": {
+              "location": "StepDefinition.sortCarsByPriceDecending()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2272710508,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "all cars are filtered by registration from 2015 onwards",
+            "match": {
+              "location": "StepDefinition.verifyCarsFilterByRegistration()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 796598664,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "all cars are sorted by price decending",
+            "match": {
+              "location": "StepDefinition.verifyCarsSortedByDecendingPrice()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Scenario001"
+          }
+        ]
+      }
+    ],
+    "name": "Auto1 search function",
+    "description": "",
+    "id": "auto1-search-function",
+    "keyword": "Feature",
+    "uri": "C:/Auto1/Auto1Assignment/features/SearchResults.feature"
+  }
+]
