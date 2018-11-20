@@ -10,4 +10,6 @@
 	d. Under JDK compliances, select 1.8 from drop down. 
 	e. Click apply and close. 
 6. Build the project. 
+7. Open TestRunner.java file from src/test/java -> auto1.qa.test package. 
+8. Right click in opened TestRunner.java file and run it as JUnit test. 
 
